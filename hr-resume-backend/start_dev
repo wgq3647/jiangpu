@@ -1,0 +1,29 @@
+$env:Path = "D:\code\python;" + $env:Path
+```
+# 查看状态
+Get-Service MySQL
+
+# 启动
+Start-Service -Name MySQL
+
+# 停止
+Stop-Service -Name MySQL
+
+# 重启
+Restart-Service -Name MySQL
+```
+
+cd D:\code\hr-resume-backend
+
+# 安装依赖（第一次）
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn fastapi uvicorn sqlalchemy pydantic
+
+# 启动服务
+uvicorn main:app --reload --port 8000
+
+**API 文档地址：** [http://localhost:8000/docs](http://localhost:8000/docs)
+
+cd D:\code\hr-resume-backend
+& "C:\Users\zhiji\AppData\Local\Doubao\User Data\sandbox_runtime\bases\c98c5042338ed152c6f10ecd8591889f\python\python.exe" -m uvicorn main:app --host 0.0.0.0 --port 8000
+
+

@@ -1,0 +1,71 @@
+# ===== 依赖目录 =====
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== 构建产物 =====
+hr-resume-demo-vue/dist/
+hr-resume-backend/*.db
+hr-resume-backend/*.sqlite
+hr-resume-backend/*.sqlite3
+
+# ===== 环境变量和密钥 =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== IDE和编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志文件 =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== 其他临时文件 =====
+*.tmp
+*.bak
+*.cache
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 排除根目录下其他不需要的项目目录 =====
+/hrai/
+/HRTOOL/
+/hr_resume_demo/
+/node/
+/python/
+/scripts/
+/WelcomeScreen/
+/ontogpt/
+/manual_screenshots/
+/manual_temp/
+
+# ===== 备份文件 =====
+*.backup
+*.bak
+*_backup.*

@@ -1,0 +1,13 @@
+# 先临时加PATH
+$env:Path = "D:\code\node;" + $env:Path
+
+# 然后正常用
+cd D:\code\hr-resume-demo-vue
+npm run dev
+---```
+npm run dev -- --port 32100
+```
+
+$env:Path = "C:\Users\zhiji\AppData\Local\Doubao\User Data\sandbox_runtime\bases\c98c5042338ed152c6f10ecd8591889f\node;$env:Path"
+cd D:\code\hr-resume-demo-vue
+npm run dev
